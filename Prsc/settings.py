@@ -27,6 +27,10 @@ SECRET_KEY = 'django-insecure-err8f2-8*=oiw^rg)@uvlrw%az6m@l^s-0s$t)if3*!&u*so#^
 DEBUG = True
 
 ALLOWED_HOSTS = ['prsc-web2.onrender.com', 'localhost', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = [
+    'https://prsc-web2.onrender.com',
+]
+
 
 
 # Application definition
