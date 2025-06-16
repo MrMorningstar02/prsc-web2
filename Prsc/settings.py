@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-err8f2-8*=oiw^rg)@uvlrw%az6m@l^s-0s$t)if3*!&u*so#^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['prsc-web2.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
